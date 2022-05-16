@@ -1,9 +1,15 @@
 .l-footer {
-  background-color: #24292e;
-  padding: 10px 0 20px 0;
-  &_sentence {
-    color: #ffffff;
-    text-align: center;
-    font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+  &_picture {
+    width: 110px;
+    margin: 0 50px 0 0;
+    img {
+      width: 100%;
+    }
   }
 }

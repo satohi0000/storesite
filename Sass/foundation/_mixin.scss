@@ -5,7 +5,7 @@ $tab: 767px;
   }
 }
 
-$sp: 600px;
+$sp: 599px;
 @mixin sp {
   @media (max-width: ($sp)) {
     @content;
