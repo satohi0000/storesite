@@ -174,6 +174,7 @@ select {
 body {
   background: #ffffff;
   font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  color: #24292e;
 }
 
 .l-contents_main_title {
@@ -261,6 +262,44 @@ body {
 
 .l-contents_main_article_new_bgw p {
   font-size: 14px;
+}
+
+.l-contents_main_fashion {
+  width: 100%;
+  height: 520px;
+  background-color: #f8f8f8;
+}
+
+.l-contents_main_fashion_title {
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+.l-contents_main_fashion_title h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.l-contents_main_fashion_title p {
+  padding: 15px 0 30px 0;
+  font-size: 14px;
+}
+
+.l-contents_main_fashion_button {
+  border: solid 1px #2a2a2a;
+  width: 132px;
+  margin: 0 auto;
+}
+
+.l-contents_main_fashion_button a {
+  text-align: center;
+  margin: 11.75px 36px;
+  text-decoration: none;
+}
+
+.l-contents_main_fashion_button p {
+  font-size: 12px;
+  color: #24292e;
 }
 
 .l-contents_page {
