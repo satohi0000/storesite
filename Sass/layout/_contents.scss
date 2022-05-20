@@ -115,6 +115,7 @@
         display: flex;
         max-width: 1036px;
         margin: 0px auto;
+        padding-bottom: 120px;
 
         &_picture {
           width: 50%;
@@ -143,9 +144,13 @@
       &_Antique {
         display: flex;
         flex-direction: row-reverse;
+        max-width: 1036px;
+        margin: 0px auto;
+        padding-bottom: 60px;
 
         &_picture {
           width: 50%;
+          margin-right: 14px;
           img {
             width: 100%;
             object-fit: cover;
@@ -153,8 +158,43 @@
         }
         &_sentence {
           width: 50%;
+          margin-left: 14px;
+          padding-top: 92px;
+          h1 {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 40px;
+          }
+          p {
+            font-size: 14px;
+            margin-bottom: 30px;
+          }
+          &_button {
+            width: 132px;
+            height: 42px;
+            margin: 0 auto;
+            a {
+              padding: 14px 36px;
+            }
+            p {
+              width: 132px;
+              border: solid 1px #2a2a2a;
+              padding: 14px 0;
+              text-align: center;
+              align-items: center;
+              color: #24292e;
+              font-size: 12px;
+            }
+          }
         }
       }
+    }
+    &_mag88 {
+      width: 100%;
+      display: flex;
+      background-color: #2a2a2a;
+      color: white;
     }
   }
 }
