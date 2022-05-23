@@ -15,16 +15,17 @@
     }
     &_article {
       display: flex;
-      max-width: 1600px;
+      max-width: 1200px;
       justify-content: center;
       text-align: center;
       padding-bottom: 80px;
+      margin: 0 auto;
       @include tab {
         flex-direction: column;
       }
       &_archive {
         &_img {
-          max-width: 500px;
+          max-width: 510px;
           margin: 0 10px 0 0;
           position: relative;
           @include tab {
@@ -61,7 +62,7 @@
       }
       &_new {
         &_img {
-          max-width: 500px;
+          max-width: 510px;
           margin: 0 10px 0 0;
           position: relative;
           @include tab {
@@ -98,29 +99,35 @@
       }
     }
     &_fashion {
-      width: 100%;
-      height: 520px;
+      max-width: 1200px;
       background-color: #f8f8f8;
-      margin-bottom: 80px;
+
+      margin: 0 auto 80px;
+      img {
+        width: 100%;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
       &_title {
         text-align: center;
-        padding: 60px 0 0 0;
         h1 {
           font-size: 24px;
           font-weight: bold;
+          padding: 60px 0 20px 0;
         }
         p {
-          padding: 15px 0 30px 0;
+          padding: 0px 0 20px 0;
           font-size: 14px;
           @include tab {
-            padding: 0 5%;
+            padding: 0 5% 44px;
           }
         }
       }
       &_button {
         border: solid 1px #2a2a2a;
         width: 132px;
-        margin: 0 auto;
+        margin: 0 auto 20px;
         a {
           text-align: center;
           margin: 11.75px 36px;
@@ -139,7 +146,7 @@
       padding-top: 60px;
       &_catalog {
         display: flex;
-        max-width: 1036px;
+        max-width: 1200px;
         margin: 0px auto;
         padding-bottom: 120px;
         @include tab {
@@ -184,7 +191,7 @@
         display: flex;
         flex-direction: row-reverse;
 
-        max-width: 1036px;
+        max-width: 1200px;
         margin: 0px auto;
         padding-bottom: 120px;
         @include tab {
@@ -260,7 +267,7 @@
       color: white;
       &_menu {
         display: flex;
-        max-width: 1036px;
+        max-width: 1200px;
         margin: 0px auto;
         justify-content: space-between;
         padding: 100px;
